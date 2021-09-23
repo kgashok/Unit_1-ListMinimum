@@ -12,8 +12,9 @@ except:
 	alist = instring.split(' ')
 	alist = list(map(int, alist))
 	print(alist)
+#-------------------------------------------
 
-# Typical indexed version
+# Write your Typical indexed version below
 minval = alist[0]
 n = 1
 while n < len(alist):
@@ -24,7 +25,7 @@ while n < len(alist):
 
 print("The minimum value is {0}".format(minval))
 
-# A more Pythonic version
+# Write a more Pythonic version below
 minval = alist[0]
 for val in alist[1:]:
 	if val < minval: 
