@@ -15,20 +15,18 @@ except:
 #-------------------------------------------
 
 # Write your Typical indexed version below
-minval = alist[0]
-n = 1
-while n < len(alist):
-	val = alist[n] 
-	if val < minval: 
-		minval = val
-	n += 1
 
-print("The minimum value is {0}".format(minval))
+
+
+
+
+
+
+
 
 # Write a more Pythonic version below
-minval = alist[0]
-for val in alist[1:]:
-	if val < minval: 
-		minval = val
 
-print("The minimum value is {0}".format(minval))
+
+
+
+
